@@ -1,0 +1,56 @@
+.builder-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.builder-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.builder-form input,
+.builder-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #45a049;
+}
+
+.preview {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e3f2fd;
+    border-radius: 12px;
+}
+
+.loader,
+.error {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: #444;
+}
